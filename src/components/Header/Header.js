@@ -19,13 +19,13 @@ Header.propTypes = {
   baseAmount: PropTypes.number,
   baseCurrency: PropTypes.string,
   className: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
 
   baseAmount: 1,
   baseCurrency: 'euro',
   className: '',
-}
+};
 
 export default Header;

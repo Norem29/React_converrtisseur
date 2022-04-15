@@ -8,11 +8,11 @@ const Currencies = () => (
 
 Currencies.propTypes = {
 
-}
+};
 
 Currencies.defaultProps = {
 
 
-}
+};
 
 export default Currencies;
