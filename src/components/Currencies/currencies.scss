@@ -1,0 +1,25 @@
+@use 'src/styles/vars';
+
+.currencies {
+  background-color: vars.$color-light;
+  max-height: 250px;
+  overflow-y: auto;
+
+  &-title {
+    padding: vars.$gutter;
+    margin-top: vars.$gutter;
+    font-weight: bold;
+  }
+
+  &::-webkit-scrollbar {
+    width: vars.$gutter/2;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: vars.$color-light;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: vars.$color;
+  }
+}
